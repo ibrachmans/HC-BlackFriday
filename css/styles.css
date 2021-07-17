@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 1080px) {
+    html {
+        font-size: 93.75%;
+    }
+}
+
+@media (max-width: 720px) {
+    html {
+        font-size: 87.5%;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-weight: 400;
+}
+
+.top-container {
+    background: #000;
+    color: #fff;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.top-container h1 {
+    font: 700 8rem 'Poppins', sans-serif;
+    text-align: center;
+    background: -webkit-linear-gradient(rgb(216, 0, 0), rgb(255, 132, 61));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    padding: 2rem;
+    
+}
+
+.top-container h2 {
+    font: 600 2rem 'Poppins', sans-serif;
+    text-align: center;
+}
+
+#top1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#top2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mid-container {
+    background: rgb(255, 224, 48);
+    color: #000;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mid-container h3 {
+    font: 500 2rem 'Poppins', sans-serif;
+}
+
+#countdown {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.form-card {
+    margin: 2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+  
+li {
+    align-items: center;
+    display: inline-block;
+    font-size: 0.8rem;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+  
+li span {
+    display: block;
+    font-size: 2.5rem;
+    background: white;
+    min-width: 5rem;
+}
+
+
+input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    height: 2rem;
+}
+
+.data {
+    padding-left: 1rem;
+}
+
+#submit {
+    cursor: pointer;
+}
+
+.agreed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.agreed input {
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.button {
+    height: 50px;
+    border-radius: 8px;
+    font-weight: 500;
+    background: #000000;
+    color: #FFF;
+    padding: 0 32px;
+    margin-left: 3rem;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    cursor: pointer;
+    border: 0;
+
+    transition: filter 0.2s;
+}
+
+.button:hover {
+    background: white;
+    color: black;
+}
+
+.bottom-container {
+    background: #fff;
+    color: #000;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 8rem 0 0;
+}
+
+.bottom-container h2 {
+    font-size: 3rem;
+    padding-bottom: 2.5rem;
+}
+
+.bottom-container p {
+    text-align: center;  
+}
+
+img {
+    max-width: 20%;
+    margin-bottom: 1rem;
+}
+
+.advantages {
+    display: flex;
+    margin-bottom: 2rem;
+    padding: 2.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#adv1, #adv2, #adv3 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    height: 15vh;
+    padding: 15px;
+    text-align: center;
+    background-color: #000;
+    color: #ffffff;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}

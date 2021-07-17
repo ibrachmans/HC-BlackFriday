@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Friday</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" href="./assets/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section class="top-container">
+        <h2>A tão aguardada</h2>
+        <div id="top1">
+            <h1>BLACK FRIDAY</h1>
+        </div>
+        <div id="top2">
+            <h2>ESTÁ CHEGANDO...</h2>
+            <p>Prepare-se para a mior promoção do ano!</p>
+        </div>
+    </section>
+    <section class="mid-container">
+        <div>
+            <h3>PREÇOS IMPERDÍVEIS EM:</h3>
+        </div>
+        <div id="countdown">
+            <ul>
+                <li><span id="days"></span>Dias</li>
+                <li><span id="hours"></span>Horas</li>
+                <li><span id="minutes"></span>Minutos</li>
+                <li><span id="seconds"></span>Segundos</li>
+            </ul>
+        </div>
+        <div class="form-card">
+            <form class="email-form">
+                <input class="data"type="text" name="name" placeholder="Nome" id="name" required />
+                <input class="data"type="email" name="email" placeholder="E-mail" id="email" required />
+                <div class="agreed">
+                    <input type="checkbox" required />
+                    <label>
+                        Aceito receber comunicações
+                    </label>
+                </div>
+                <button id="submit" type="submit" class="button">Quero benefício!</button>
+        </div>
+    </section>
+    <section class="bottom-container">
+        <div>
+            <h2>BENEFÍCIOS</h2>
+            <span></span>
+        </div>
+        <div class="advantages">
+            <div id="adv1">
+                <img src="./assets/corrida.png" alt="Seja o primeiro da fila">
+                <h3>Primeiro da fila</h3>
+                <p>Seja o primeiro a saber das promoções e tenha acesso antecipado.</p>
+            </div>
+            <div id="adv2">
+                <img src="./assets/cupons.png" alt="Cumpons de brinde">
+                <h3>Receba cupons</h3>
+                <p>Acesso a cupons exclusivos todos os meses.</p>
+            </div>
+            <div id="adv3">
+                <img src="./assets/saving.png" alt="Você satisfeito">
+                <h3>Você sempre satisfeito</h3>
+                <p>Promoções reais para você estar sempre satisfeito.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <span>
+            Feito com &#128155; por
+            <a href="https://github.com/ibrachmans">Ilan Brachmans</a>
+        </span>
+    </footer>
+    <script src="./js/script.js"></script>
+    <script src="./js/countdown.js"></script>
+</body>
+
+</html>
