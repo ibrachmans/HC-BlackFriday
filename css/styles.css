@@ -5,17 +5,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-@media (max-width: 1080px) {
-    html {
-        font-size: 93.75%;
-    }
-}
 
-@media (max-width: 720px) {
-    html {
-        font-size: 87.5%;
-    }
-}
 
 html {
     scroll-behavior: smooth;
@@ -184,7 +174,7 @@ input {
 }
 
 img {
-    max-width: 20%;
+    max-width: 30%;
     margin-bottom: 1rem;
 }
 
@@ -214,4 +204,22 @@ footer {
     left: 0px;
     right: 0px;
     margin-bottom: 0px;
+}
+
+@media only screen and (max-width:900px) {
+    .advantages {
+        flex-direction: column;
+    }
+
+    .bottom-container {
+        height: 110vh;
+    }
+
+    .mid-container {
+        height: 100vh;
+    }
+
+    .top-container {
+        height: 100vh;
+    }
 }
