@@ -66,6 +66,7 @@ body {
 
 .mid-container h3 {
     font: 500 2rem 'Poppins', sans-serif;
+    text-align: center;
 }
 
 #countdown {
@@ -197,6 +198,9 @@ img {
 footer {
     height: 15vh;
     padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     background-color: #000;
     color: #ffffff;
@@ -222,4 +226,7 @@ footer {
     .top-container {
         height: 100vh;
     }
+
+    .top-container h1 {
+        font-size: 5rem;
 }
